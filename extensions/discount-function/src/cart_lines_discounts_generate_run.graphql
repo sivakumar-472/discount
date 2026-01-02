@@ -3,9 +3,9 @@ query CartInput {
     buyerIdentity {
       customer {
         id
-        metafield(namespace: "custom", key: "discount_tier") {
-          value
-        }
+       metafield(namespace: "custom", key: "customer_tier_level") {
+     value
+    }
       }
     }
     lines {
